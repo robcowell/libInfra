@@ -1,0 +1,8 @@
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\bin\Debug\libInfra.dll
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\bin\Debug\libInfra.pdb
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\TestInfra.csprojResolveAssemblyReference.cache
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

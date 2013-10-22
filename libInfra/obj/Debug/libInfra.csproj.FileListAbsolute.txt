@@ -1,0 +1,5 @@
+c:\users\robcowell\documents\visual studio 2012\Projects\libInfra\libInfra\obj\Debug\libInfra.csprojResolveAssemblyReference.cache
+c:\users\robcowell\documents\visual studio 2012\Projects\libInfra\libInfra\bin\Debug\libInfra.dll
+c:\users\robcowell\documents\visual studio 2012\Projects\libInfra\libInfra\bin\Debug\libInfra.pdb
+c:\users\robcowell\documents\visual studio 2012\Projects\libInfra\libInfra\obj\Debug\libInfra.dll
+c:\users\robcowell\documents\visual studio 2012\Projects\libInfra\libInfra\obj\Debug\libInfra.pdb
