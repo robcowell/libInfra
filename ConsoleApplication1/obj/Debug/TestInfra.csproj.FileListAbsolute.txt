@@ -6,3 +6,11 @@ C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplica
 C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\TestInfra.csprojResolveAssemblyReference.cache
 C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\robcowell\documents\visual studio 2012\Projects\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\bin\Debug\libInfra.dll
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\bin\Debug\libInfra.pdb
+C:\Users\ukrco01\Documents\GitHub\libInfra\ConsoleApplication1\obj\Debug\TestInfra.csprojResolveAssemblyReference.cache

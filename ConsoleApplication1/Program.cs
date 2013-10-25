@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using libInfra;
 using System.Data;
+using System.IO;
 
 namespace TestInfra
 {
@@ -15,15 +16,18 @@ namespace TestInfra
             try
             {
                 InfraWrapper wrapper = new InfraWrapper();
-                wrapper.Login(@"EU Business Services", "TEST1234", "VSM");
+                wrapper.Login(@"EU Business Webservice", "TEST1234", "VSM");
 
                 //Do things
                 if (wrapper.SessionID != String.Empty)
                 {
-                    DataSet callresult = wrapper.RetrieveCallInfo("1638021");
-                    DataTable dt = callresult.Tables[0];
-                    String calldetails = ReturnDataFromResultSet(dt, "PROBLEM_DESC");
-                    Console.WriteLine(calldetails);
+                    DataSet callresult = wrapper.RetrieveCallInfo("~372029");
+                    if (callresult.Tables.Count > 0)
+                    {
+                        DataTable dt = callresult.Tables[0];
+                        String calldetails = ReturnDataFromResultSet(dt, "PROBLEM_DESC");
+                        Console.WriteLine(calldetails);
+                    }
                     wrapper.Logout(wrapper.SessionID);
                 }
             }
@@ -42,23 +46,15 @@ namespace TestInfra
                 return String.Empty;
             }
 
-            // Datatable column 0 is the field name in the cell table
-            // Datatable column 1 is the field value in the cell table
-
+            
             String fName = String.Empty;
             String fValue = String.Empty;
 
-            for (int rowcount = 0; rowcount <= dt.Rows.Count; rowcount++)
-            {
-                fName = dt.Rows[rowcount].ItemArray[0].ToString();
-                fValue = dt.Rows[rowcount].ItemArray[1].ToString();
-                if (fName == fieldname)
-                {
-                    return fValue;
-                }
-            }
+           
 
-            return fValue;
+           
+            fValue = dt.Rows[0][fieldname].ToString();
+            return fValue;    
         }
     }
 }

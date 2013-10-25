@@ -80,17 +80,14 @@ namespace libInfra
 
         public DataSet RetrieveCallInfo(String callnumber)
         {
-            CallRetrieveRequest callretrieverequest = new CallRetrieveRequest();
-            callretrieverequest.sID = sSessionID;
-            callretrieverequest.lEntityRef = buildLookupString(callnumber);
-
-            CallRetrieveResponse callretrieveresponse = new CallRetrieveResponse();
+            String lEntityRef = buildLookupString(callnumber);
 
             String sMessage = String.Empty;
             DataSet resultset = new DataSet();
             try
             {
-                Client.CallRetrieve(sSessionID, sUsername, sPassword, sDatabase, callretrieverequest.lEntityRef, null, out sMessage, out resultset);
+                Client.CallRetrieve(SessionID, null, null, null, lEntityRef, null, out sMessage, out resultset);
+                Console.WriteLine(sMessage);
             }
             catch (Exception ex)
             {
